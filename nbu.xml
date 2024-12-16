@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="gith" fetch="https://github.com" />
+<remote name="glabb" fetch="https://gitlab.com" />
+
+<!-- Device Trees -->
+<project path="device/xiaomi/nabu" name="hxfuxyy/android_device_xiaomi_nabu" remote="gith" revision="lineage-22" />
+<project path="vendor/xiaomi/nabu" name="dev-harsh1998/android_vendor_xiaomi_nabu" remote="glabb" revision="lineage-22" />
+<project path="kernel/xiaomi/nabu" name="dev-harsh1998/android_kernel_xiaomi_nabu" remote="gith" revision="lineage-22" />
+<project path="hardware/xiaomi" name="Evolution-X-Devices/hardware_xiaomi" remote="gith" revision="vic" />
+</manifest>
